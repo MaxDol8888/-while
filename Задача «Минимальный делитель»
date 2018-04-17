@@ -1,0 +1,32 @@
+n=int(input())
+i=1
+while i<n:
+    if n%i==0:
+        m=n/i
+    i+=1
+print (int(m))
+
+
+n = int(input())
+i = 2
+while n % i != 0:
+    i += 1
+print(i)
+
+
+a = int(input())
+i = 2
+while i <= a:
+    if a % i == 0:
+        print(i)
+        break
+    i += 1
+    
+    
+a = int(input())
+x = 2
+while a % x != 0 :
+    x += 1
+    if a % x == 0 :
+        break
+print (x)
