@@ -1,0 +1,43 @@
+x=int(input())
+y=int(input())
+days=1
+while x<y:
+    x+=x/10
+    days+=1
+print(days)
+
+
+x = int(input())
+y = int(input())
+i = 1
+while x < y:
+    x *= 1.1
+    i += 1
+print(i)
+
+
+x=float(input())
+y=float(input())
+i=1
+while x<y:
+    x=x+(x*0.1)
+    i=i+1
+else: print(i)
+
+
+x=int(input())
+y=int(input())
+n=1
+while x<y:
+    x*=1.1
+    n+=1
+print(n)
+
+
+x=int(input())
+y=int(input())
+i=1
+while x<y:
+    x=x+((x/100)*10)
+    i=i+1
+print(i)
