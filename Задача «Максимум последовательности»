@@ -1,0 +1,46 @@
+sum = 0
+element = int(input())
+while element != 0:
+    if element>sum:
+        sum = element
+    else:    
+        element = int(input())
+print(sum)
+
+
+max = 0
+element = -1
+while element != 0:
+    element = int(input())
+    if element > max:
+        max = element
+print(max)
+
+
+k = int(input())
+m = k
+while k != 0:
+    k = int(input())
+    if k > m:
+        m = k
+print (m)
+
+
+n = -1
+lst = []
+while n != 0:
+    n = int(input())
+    lst.append(n)
+print(max(lst))
+
+
+b = 0
+a = int(input())
+while a != 0:
+    if a > b:
+        c = a
+        b = a
+    else:
+        c = b
+    a = int(input())
+print(c)
