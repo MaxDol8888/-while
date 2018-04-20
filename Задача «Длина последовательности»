@@ -1,0 +1,26 @@
+l=0
+while int(input())!=0:
+    l+=1
+print(l)
+
+
+len = 0
+while int(input()) != 0:
+    len += 1
+print(len)
+
+
+count = 0
+n = ''
+while n != 0:
+    n = int(input())
+    count += 1
+print(count - 1)
+
+
+a=int(input())
+k=0
+while a!=0:
+    k+=1
+    a=int(input())
+print(k)
