@@ -1,0 +1,45 @@
+l=0
+n=''
+while n!=0:
+    n = int(input())
+    l+=n
+print(l)
+
+
+sum = 0
+element = int(input())
+while element != 0:
+    sum += element
+    element = int(input())
+print(sum)
+
+
+b=1
+c=0
+a=0
+while b!=0:
+    a=int(input())
+    b=a
+    c+=a
+print(c)
+
+
+n=int(input())
+s=n
+if n>0:
+    while n<100000:
+        n=int(input())
+        s=s+n
+        if n==0:
+            break
+    print(s)
+else:
+    print(0)
+    
+    
+sum = 0
+while True:
+    i = int(input())
+    if i == 0: break
+    sum += i
+print(sum)    
