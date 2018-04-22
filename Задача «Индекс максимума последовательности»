@@ -1,0 +1,80 @@
+i = int(input())
+a = 0
+b = 0
+while i != 0:
+    if i > b:
+        b = i
+        index = a
+    a += 1
+    i = int(input())
+print(b,index)
+
+
+max = 0
+index_of_max = -1
+element = -1
+len = 0
+while element != 0:
+    element = int(input())
+    if element > max:
+        max = element
+        index_of_max = len
+    len += 1
+print(index_of_max)
+
+
+inp = 1
+lst = []
+while inp:
+    inp = int(input())
+    lst.append(inp)
+print(max(lst), lst.index(max(lst)))
+
+
+n = -1
+m = 0
+i = -1
+while n != 0:
+    n = int(input())
+    i += 1
+    if n > m:
+        m = n
+        maxi = i
+print(maxi)
+
+
+i = 0
+a = 1
+b = -1
+index = 0
+while a != 0:
+    a = int(input())
+    i += 1
+    if a > b:
+        b = a
+        index = i
+print(index - 1)
+
+
+elem = int(input())
+num = 0
+i = 0
+max = 0
+while elem != 0:
+    if max < elem:
+        max = elem
+        num = i
+    elem = int(input())
+    i += 1
+print(num)
+
+
+max,i,imax = 0,-1,0
+n = int(input())
+while  n != 0:
+    i += 1
+    if n > max:
+        imax = i
+        max = n
+    n = int(input())
+print(imax)
