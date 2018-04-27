@@ -1,0 +1,56 @@
+max = 0
+element = -1
+i=0
+while element != 0:
+    element = int(input())
+    if element ==0:
+        break
+    if element%2 == 0:
+        i+=1
+print(i)
+
+
+num_even = -1
+element = -1
+while element != 0:
+    element = int(input())
+    if element % 2 == 0:
+        num_even += 1
+print(num_even)
+
+
+a = int(input())
+q = 0
+while a != 0:
+    if a % 2 == 0:
+        q+=1
+    a = int(input())
+print(q)
+
+
+b=0
+a=int(input())
+while a!=0:
+    if a%2==0:
+        b+=1 
+    a=int(input())    
+print(b)
+
+
+n = int(input())
+ans = 0
+while n != 0:
+     if n & 1 == False:
+          ans += 1
+     n = int(input())
+print(ans)
+
+
+k = 0
+z = input()
+while z!='0':
+    if int(z)%2==0:
+        k +=1
+    z = input()
+else:
+    print(k)
