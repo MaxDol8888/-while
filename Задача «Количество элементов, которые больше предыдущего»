@@ -1,0 +1,74 @@
+element = int(input())
+max=element
+i=0
+while element != 0:
+    element = int(input())
+    if element> max:
+        i+=1
+    max=element    
+print(i)
+
+
+prev = int(input())
+answer = 0
+while prev != 0:
+    next = int(input())
+    if next != 0 and prev < next:
+        answer += 1
+    prev = next
+print(answer)
+
+
+n = int(input())
+
+i=0
+while n!=0:
+    n1 = int(input())
+    if n1>n:
+        n = n1
+        i+=1
+    n = n1
+print(i)
+
+
+prev = int(input())
+k = 0
+n = -1
+while n != 0:
+    n = int(input())
+    if n > prev:
+        k += 1
+    prev = n
+print(k)
+
+
+prev = int(input())
+answer = 0
+while prev != 0:
+    next = int(input())
+    if next != 0 and prev < next:
+        answer += 1
+    prev = next
+print(answer)
+
+
+a = int(input())
+max = a
+i = 0
+while a != 0:
+    a = int(input())
+    if a > max:
+        i += 1
+    max = a
+print(i)
+
+
+s=1
+prev=int(input())
+mi=0
+while s!=0:
+    s=int(input())
+    if prev<s:
+        mi+=1
+    prev=s
+print(mi)
