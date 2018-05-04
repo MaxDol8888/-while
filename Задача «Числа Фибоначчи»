@@ -1,0 +1,84 @@
+n=int(input())
+i=1
+f0=0
+f1=1
+f=0
+if n==1:
+    print(1)
+else:    
+    while i<n:
+        f=f0+f1
+        f0,f1=f1,f
+        i+=1
+    print(f)
+    
+    
+n = int(input())
+if n == 0:
+    print(0)
+else:
+    a, b = 0, 1
+    for i in range(2, n + 1):
+        a, b = b, a + b
+    print(b)
+    
+    
+a = int(input())
+b = 0 
+c = 1
+i = 1
+f = 0
+while i < a:
+    i = i + 1
+    f = c + b
+    b = c
+    c = f
+if a == 1:
+    print(a)
+else:
+    print(f)
+    
+    
+n = int(input())
+
+if(n==0):
+    print(0)
+else:
+    a,b = 0,1 
+    for i in range(2,n+1):
+        a, b = b, b+a
+    print(b)
+    
+    
+n = int(input())
+if n == 0:
+    print(0)
+else:
+    x=0
+    y=1
+    for i in range(2, n + 1):
+        x,y=y,x + y
+    print(y)
+    
+    
+n = int(input())
+a = 0
+b = 1
+for i in range(n):
+    a, b = b, a + b
+print(a)
+
+
+n = int(input())
+fib = 0
+f1 = 0
+f2 = 1
+for i in range(n+1):
+    if i == 0:
+        fib = 0
+    elif i == 1:
+        fib = 1
+    else:
+        fib = f1 + f2
+        f1, f2 = f2, fib
+print(fib)
