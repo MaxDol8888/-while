@@ -1,0 +1,92 @@
+F=int(input())
+n,f0,f1,f=0,0,1,0
+while f<=F:
+    f=f0+f1
+    f0,f1=f1,f
+    n+=1
+    if f==F:
+        print(n+1)
+if f0!=F:
+    print("-1")
+    
+    
+a = int(input())
+if a == 0:
+    print(0)
+else:
+    fib_prev, fib_next = 0, 1
+    n = 1
+    while fib_next <= a:
+        if fib_next == a:
+            print(n)
+            break
+        fib_prev, fib_next = fib_next, fib_prev + fib_next
+        n += 1
+    else:
+        print(-1)
+        
+        
+A=int(input())
+n=1
+f=0
+f1=0
+f2=1
+while A>f:
+    n+=1
+    f=f1+f2
+    f1=f2
+    f2=f
+if f==A:
+    print(n)
+else:
+    print(-1)
+    
+    
+n = int(input())
+i = 0
+i1, i2 = 0, 1
+while i1 < n:
+    i1, i2 = i2, i1+i2
+    i += 1
+if i1 == n:
+    print(i)
+else:
+    print (-1)
+    
+    
+def f(n):
+    r=5**0.5
+    return round(((1+r)/2)**n/r)
+    
+i,d=0,int(input())
+while d>f(i): i+=1
+print(i if d==f(i) else -1)
+
+
+x=int(input())
+f0=0
+f1=1
+k=0
+while x>1:
+    f1=f0+f1
+    f0,f1=f1,f0
+    x-=f0
+    k+=1
+    if x==1:
+        print(k+2)
+    elif x<1:
+        print(-1)
+        
+        
+a = int(input())
+i = 0
+n = 1
+f0, f1 = 0, 1
+while a > 1:
+    a -= f0
+    f0, f1 = f1, f0 + f1
+    n += 1
+if a == 1:
+    print(n)
+else:
+    print(-1)        
