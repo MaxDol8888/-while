@@ -67,3 +67,15 @@ while X != 0:
         max2=X
     X = int(input())
 print(max2)
+
+
+# Hapilin
+st = int(input())
+a=[]
+k=int(0)
+while st != 0:
+    a.append(st)
+    st = int(input())
+a.sort()
+a.pop()
+print(max(a))
