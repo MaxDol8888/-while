@@ -79,3 +79,18 @@ while st != 0:
 a.sort()
 a.pop()
 print(max(a))
+
+
+#Veronika
+a = int(input())
+s = int(input())
+if a < s:
+   a, s =  s, a
+e = int(input())
+while e != 0:
+    if e > a:
+        s, a = a, e
+    elif e > a:
+        a = e
+    e = int(input())
+print(s)
